@@ -1,0 +1,305 @@
+return,trans_xml
+no_error,"<?xml version=""1.0"" encoding=""utf-8""?><Invoice xmlns=""http://www.magaya.com/XMLSchema/V1"" GUID=""83b49914-3076-441a-9d0a-4b863af97df6"" Type=""IN""><Number>EPA4936MA</Number><CreatedBy GUID=""042fb813-365e-41f7-b26a-4363b930e1a5""><Type>Employee</Type><Name>Anais Angulo</Name><CreatedOn>2024-02-19T14:39:49-05:00</CreatedOn><Email>anais.timmermeyer@xpdglobal.com</Email><IsPrepaid>true</IsPrepaid></CreatedBy><IssuedBy GUID=""32504a65-37c4-445e-971d-73cccf8137be""><Type>ForwardingAgent</Type><Name>Ep America Inc</Name><CreatedOn>2019-04-30T13:17:13-04:00</CreatedOn><Address><Street>3340A Greens Rd, Suite 700</Street><City>Houston</City><State>TX</State><ZipCode>77032</ZipCode><Country Code=""US"">United States</Country><Description>Default Shipping Address</Description><ContactName>Luis Contreras</ContactName><ContactPhone>1-855-372-3278</ContactPhone><ContactEmail>luis.contreras@xpdglobal.com</ContactEmail></Address><BillingAddress><Street>3340A Greens Rd, Suite 700</Street><City>Houston</City><State>TX</State><ZipCode>77032</ZipCode><Country Code=""US"">United States</Country><Description>Default Billing Address</Description><ContactName>Luis Contreras</ContactName><ContactPhone>1-855-372-3278</ContactPhone><ContactEmail>luis.contreras@xpdglobal.com</ContactEmail></BillingAddress><Email>luis.contreras@xpdglobal.com</Email><Website>www.xpdglobal.com</Website><Phone>1-855-372-3278</Phone><AccountNumber>264578773</AccountNumber><ContactFirstName>Luis</ContactFirstName><ContactLastName>Contreras</ContactLastName><ExporterID>0010Y00001Urx9FQAR</ExporterID><ExporterIDType>Other</ExporterIDType><NetworkID>37357</NetworkID><IsKnownShipper>true</IsKnownShipper><IsPrepaid>true</IsPrepaid><MobilePhone>786-300-9007</MobilePhone><AgentInfo><IATAAccountNumber>01-1 1683/0013</IATAAccountNumber><FMCNumber>023889NF</FMCNumber><SCACNumber>EPQN</SCACNumber><TSANumber>NC1202003</TSANumber></AgentInfo></IssuedBy><Account><Type>AccountReceivable</Type><Name>Accounts Receivable</Name><Currency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></Currency></Account><Entity GUID=""c1eca53b-db3a-4a2a-9ead-e5e950b9893c""><Type>Client</Type><Name>MEXICO MRO MANAGEMENT, S DE R.L. DE� C.V.</Name><CreatedOn>2022-09-27T09:58:38-04:00</CreatedOn><Address><Street>Carretera Estatal 200 QueretaroTequisquiapan Numero 22500 A, C.P. 76270</Street><Street>RFC: MMM170428EC4 POC: Marian Magos Badillo</Street><Street>E: marian.magos@techops.mx</Street><City>Colon</City><State>Queretaro</State><ZipCode>76270</ZipCode><Country Code=""MX"">Mexico</Country><Description>Default Shipping Address</Description><ContactName>Marian Magos Badillo</ContactName><ContactPhone>+52 442-561-9808</ContactPhone><ContactFax>+52 442-561-9808</ContactFax><ContactEmail>marian.magos@techops.mx</ContactEmail></Address><BillingAddress><Street>Carretera Estatal 200 Queretaro Tequisquiapan Numero 22500 A, C.P</Street><Street>RFC: MMM170428EC4 POC: Marian Magos Badillo</Street><Street>E: marian.magos@techops.mx P:+52 442-561-9808</Street><City>Colon</City><State>Queretaro</State><ZipCode>76270</ZipCode><Country Code=""MX"">Mexico</Country><Description>Default Billing Address</Description><ContactName>Marian Magos Badillo</ContactName><ContactPhone>+52 442-561-9808</ContactPhone><ContactFax>+52 442-561-9808</ContactFax><ContactEmail>marian.magos@techops.mx</ContactEmail></BillingAddress><Email>marian.magos@techops.mx</Email><Phone>+52 442-561-9808</Phone><Fax>+52 442-561-9808</Fax><AccountNumber>CUSA01048</AccountNumber><ContactFirstName>Marian</ContactFirstName><ContactLastName>Magos Badillo</ContactLastName><ExporterID>0011v00002QhtyVAAR</ExporterID><ExporterIDType>Other</ExporterIDType><Notes>TECH OPS (Mexico client) - Mexico MRO
+venta 30% de profit - cotizar directo al cliente
+
+
+LAX MEX
+Aerounion
+Mas Air
+American Airlines
+
+ORD MEX
+Aerounion
+American Airlines
+
+PHX MEX
+American Airlines 
+
+MIA MEX
+Estafeta
+Amerijet
+American Airlines
+Aeromexico 
+
+JFK MEX
+american airlines
+aeromexico
+
+Estafeta
+No esta en ebooking - schedule abajo
+Schedule 1,2,3,4,6 (no flights on Fridays or Sundays)
+Cut off 12:00pm same day of the flight
+ETD 18:00
+ETA 23:55 
+Ruta: via MIA/CUN/MID/MEX 
+
+Amerijet  
+No esta en ebooking – chequear schedule 
+Account EURPMI en 7L (usar las tarifasque menciona nuestro account # en 7L en observaciones)
+GCX – priority
+General – standard 
+Schedules online en amerijet cargo --&gt; Shipping Company | Air Freight | Cargo Shipping | Amerijet
+Wednesday only 23:30 – 1:45am
+Ruta: direct MIA MEX 
+
+
+PAX: 
+
+American Airlines 
+confirmedFS – standard
+expeditedFS – priority 
+Schedule esta en ebooking (pero siempre usar la tarifa de 7L tarifario porque hay un peak season surcharge adicional para MEX)
+La tarifa de 7L es la de PROMO 7980 
+Dependiendo de las dimensiones/peso, puede aceptar hasta 158in de largo – si aparece en ebooking, si acepta.. si no aparece, no acepta las dimensiones. 
+
+Aeromexico 
+Daily flight MIA MEX
+Max dim 48*40*30in 150kg per piece
+AM 0423 ETD 1300 ETA 1555
+AM 0413 ETD 1836 ETA 2125
+Cut off express 6 hours before the flight 
+
+ORD MEX: 
+
+Freighter: Aerounion 
+Frequency: Thursday and Sundays
+Cut off 19:00 the day before of the flight
+Thursday ETD 19:35pm ETA 23:35
+Sunday ETD 18:10pm ETA 22:10
+
+PAX: American Airlines 
+
+LAX MEX:
+ 
+Freighter: 
+Mas Air
+Frequency: Monday and Wednesday
+Cut off 16:00
+Moday ETD 03:00 ETA 08:30
+Wedensday ETD 02:00 ETA 09:30
+
+Aerounion
+Frequency daily
+Cut off 1700
+ETD 23:30pm
+ETA 06:40am +1 (next day)
+Route: via GDL 
+
+PAX: American Airlines 
+
+JFK MEX: 
+
+PAX: 
+
+Aeromexico
+Daily flight JFK MEX
+Max dim 48*40*30in 150kg per piece
+Cut off express 6 hours before the flight 
+
+American Airlines
+
+ATL/CLT MEX: PAX: American Airlines, United 
+
+</Notes><Balance Currency=""USD"">388608.87999999994644895196</Balance><TransactionDueDays>60</TransactionDueDays><PaymentTerms><Description>Net 60</Description><NetDueDays>60</NetDueDays><DiscountPercentage>0.00</DiscountPercentage><DiscountPaidDays>0</DiscountPaidDays></PaymentTerms><OtherAddresses><Address><Street>Carretera Estatal 200 Queretaro Tequisquiapan Numero 22500 A, C.P</Street><Street>RFC: MMM170428EC4</Street><Description>SHORT</Description></Address></OtherAddresses><RelatedEntities><RelatedEntity><EntityGUID>d21ac064-a7b6-40e0-834b-5fce5a35a6b9</EntityGUID><EntityName>Hugo Polanco</EntityName><Type>SalesPerson</Type></RelatedEntity></RelatedEntities><IsPrepaid>false</IsPrepaid><MobilePhone>+52 442-561-9808</MobilePhone><CustomFields><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>factoraje</InternalName><DisplayName>Factoraje</DisplayName><InternalUse>true</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>false</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>FA</Value></CustomField><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>guidd</InternalName><DisplayName>GUIDD</DisplayName><InternalUse>true</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>true</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>c1eca53b-db3a-4a2a-9ead-e5e950b9893c</Value></CustomField></CustomFields></Entity><CreatedOn>2024-07-01T11:51:14-04:00</CreatedOn><TotalAmount Currency=""USD"">3500.00</TotalAmount><HomeCurrency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></HomeCurrency><Currency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></Currency><ExchangeRate>1.00</ExchangeRate><TotalAmountInCurrency Currency=""USD"">3500.00</TotalAmountInCurrency><Charges><Charge GUID=""e9b1d5bd-0dc2-4f4e-af5d-5a9a1cf09106""><Type>Standard</Type><Entity GUID=""c1eca53b-db3a-4a2a-9ead-e5e950b9893c""><Type>Client</Type><Name>MEXICO MRO MANAGEMENT, S DE R.L. DE� C.V.</Name><CreatedOn>2022-09-27T09:58:38-04:00</CreatedOn><Address><Street>Carretera Estatal 200 QueretaroTequisquiapan Numero 22500 A, C.P. 76270</Street><Street>RFC: MMM170428EC4 POC: Marian Magos Badillo</Street><Street>E: marian.magos@techops.mx</Street><City>Colon</City><State>Queretaro</State><ZipCode>76270</ZipCode><Country Code=""MX"">Mexico</Country><Description>Default Shipping Address</Description><ContactName>Marian Magos Badillo</ContactName><ContactPhone>+52 442-561-9808</ContactPhone><ContactFax>+52 442-561-9808</ContactFax><ContactEmail>marian.magos@techops.mx</ContactEmail></Address><BillingAddress><Street>Carretera Estatal 200 Queretaro Tequisquiapan Numero 22500 A, C.P</Street><Street>RFC: MMM170428EC4 POC: Marian Magos Badillo</Street><Street>E: marian.magos@techops.mx P:+52 442-561-9808</Street><City>Colon</City><State>Queretaro</State><ZipCode>76270</ZipCode><Country Code=""MX"">Mexico</Country><Description>Default Billing Address</Description><ContactName>Marian Magos Badillo</ContactName><ContactPhone>+52 442-561-9808</ContactPhone><ContactFax>+52 442-561-9808</ContactFax><ContactEmail>marian.magos@techops.mx</ContactEmail></BillingAddress><Email>marian.magos@techops.mx</Email><Phone>+52 442-561-9808</Phone><Fax>+52 442-561-9808</Fax><AccountNumber>CUSA01048</AccountNumber><ContactFirstName>Marian</ContactFirstName><ContactLastName>Magos Badillo</ContactLastName><ExporterID>0011v00002QhtyVAAR</ExporterID><ExporterIDType>Other</ExporterIDType><Notes>TECH OPS (Mexico client) - Mexico MRO
+venta 30% de profit - cotizar directo al cliente
+
+
+LAX MEX
+Aerounion
+Mas Air
+American Airlines
+
+ORD MEX
+Aerounion
+American Airlines
+
+PHX MEX
+American Airlines 
+
+MIA MEX
+Estafeta
+Amerijet
+American Airlines
+Aeromexico 
+
+JFK MEX
+american airlines
+aeromexico
+
+Estafeta
+No esta en ebooking - schedule abajo
+Schedule 1,2,3,4,6 (no flights on Fridays or Sundays)
+Cut off 12:00pm same day of the flight
+ETD 18:00
+ETA 23:55 
+Ruta: via MIA/CUN/MID/MEX 
+
+Amerijet  
+No esta en ebooking – chequear schedule 
+Account EURPMI en 7L (usar las tarifasque menciona nuestro account # en 7L en observaciones)
+GCX – priority
+General – standard 
+Schedules online en amerijet cargo --&gt; Shipping Company | Air Freight | Cargo Shipping | Amerijet
+Wednesday only 23:30 – 1:45am
+Ruta: direct MIA MEX 
+
+
+PAX: 
+
+American Airlines 
+confirmedFS – standard
+expeditedFS – priority 
+Schedule esta en ebooking (pero siempre usar la tarifa de 7L tarifario porque hay un peak season surcharge adicional para MEX)
+La tarifa de 7L es la de PROMO 7980 
+Dependiendo de las dimensiones/peso, puede aceptar hasta 158in de largo – si aparece en ebooking, si acepta.. si no aparece, no acepta las dimensiones. 
+
+Aeromexico 
+Daily flight MIA MEX
+Max dim 48*40*30in 150kg per piece
+AM 0423 ETD 1300 ETA 1555
+AM 0413 ETD 1836 ETA 2125
+Cut off express 6 hours before the flight 
+
+ORD MEX: 
+
+Freighter: Aerounion 
+Frequency: Thursday and Sundays
+Cut off 19:00 the day before of the flight
+Thursday ETD 19:35pm ETA 23:35
+Sunday ETD 18:10pm ETA 22:10
+
+PAX: American Airlines 
+
+LAX MEX:
+ 
+Freighter: 
+Mas Air
+Frequency: Monday and Wednesday
+Cut off 16:00
+Moday ETD 03:00 ETA 08:30
+Wedensday ETD 02:00 ETA 09:30
+
+Aerounion
+Frequency daily
+Cut off 1700
+ETD 23:30pm
+ETA 06:40am +1 (next day)
+Route: via GDL 
+
+PAX: American Airlines 
+
+JFK MEX: 
+
+PAX: 
+
+Aeromexico
+Daily flight JFK MEX
+Max dim 48*40*30in 150kg per piece
+Cut off express 6 hours before the flight 
+
+American Airlines
+
+ATL/CLT MEX: PAX: American Airlines, United 
+
+</Notes><Balance Currency=""USD"">388608.87999999994644895196</Balance><TransactionDueDays>60</TransactionDueDays><PaymentTerms><Description>Net 60</Description><NetDueDays>60</NetDueDays><DiscountPercentage>0.00</DiscountPercentage><DiscountPaidDays>0</DiscountPaidDays></PaymentTerms><OtherAddresses><Address><Street>Carretera Estatal 200 Queretaro Tequisquiapan Numero 22500 A, C.P</Street><Street>RFC: MMM170428EC4</Street><Description>SHORT</Description></Address></OtherAddresses><RelatedEntities><RelatedEntity><EntityGUID>d21ac064-a7b6-40e0-834b-5fce5a35a6b9</EntityGUID><EntityName>Hugo Polanco</EntityName><Type>SalesPerson</Type></RelatedEntity></RelatedEntities><IsPrepaid>false</IsPrepaid><MobilePhone>+52 442-561-9808</MobilePhone><CustomFields><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>factoraje</InternalName><DisplayName>Factoraje</DisplayName><InternalUse>true</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>false</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>FA</Value></CustomField><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>guidd</InternalName><DisplayName>GUIDD</DisplayName><InternalUse>true</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>true</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>c1eca53b-db3a-4a2a-9ead-e5e950b9893c</Value></CustomField></CustomFields></Entity><Quantity>1.00</Quantity><Price Currency=""USD"">3500.0000000</Price><HomeCurrency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></HomeCurrency><Amount Currency=""USD"">3500.00</Amount><IsPrepaid>false</IsPrepaid><IsThirdPartyCharge>false</IsThirdPartyCharge><ChargeDefinition><Type>Other</Type><Description>Inland Freight</Description><Code>ILFGT-INC</Code><AccountDefinition><Type>Income</Type><Name>Ground Freight Income</Name><Currency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></Currency><ParentAccount><Type>Income</Type><Name>Freight Income</Name><Currency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></Currency></ParentAccount></AccountDefinition><Amount Currency=""USD"">0.00</Amount><Currency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></Currency><ResellCharge><Type>Other</Type><Description>Inland Freight Cost</Description><Code>ILFGT-COST</Code><AccountDefinition><Type>CostOfGoodsSold</Type><Name>Ground Freight Cost</Name><Currency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></Currency><ParentAccount><Type>CostOfGoodsSold</Type><Name>Freight Cost</Name><Currency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></Currency></ParentAccount></AccountDefinition><Amount Currency=""USD"">0.00</Amount><Currency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></Currency><IATACode>PU</IATACode><Enforce3rdPartyBilling>false</Enforce3rdPartyBilling></ResellCharge><IATACode>PU</IATACode><Enforce3rdPartyBilling>false</Enforce3rdPartyBilling></ChargeDefinition><Status>Posted</Status><PriceInCurrency Currency=""USD"">3500.0000000</PriceInCurrency><AmountInCurrency Currency=""USD"">3500.00</AmountInCurrency><ExchangeRate>1.00</ExchangeRate><Currency Code=""USD""><Name>United States Dollar</Name><ExchangeRate>1.00</ExchangeRate><DecimalPlaces>2</DecimalPlaces><IsHomeCurrency>true</IsHomeCurrency></Currency><ShowInDocuments>true</ShowInDocuments><IsCredit>false</IsCredit><IsFromSegment>false</IsFromSegment><LiquidatedAt><GUID>05a6f5d4-4a89-4038-b44e-ca5e1448be53</GUID><Type>GroundShipment</Type></LiquidatedAt><CreatedAt><GUID>05a6f5d4-4a89-4038-b44e-ca5e1448be53</GUID><Type>GroundShipment</Type></CreatedAt><Parent><GUID>83b49914-3076-441a-9d0a-4b863af97df6</GUID><Type>Invoice</Type></Parent></Charge></Charges><BillingAddress><Street>Carretera Estatal 200 Queretaro Tequisquiapan Numero 22500 A, C.P</Street><Street>RFC: MMM170428EC4 POC: Marian Magos Badillo</Street><Street>E: marian.magos@techops.mx P:+52 442-561-9808</Street><City>Colon</City><State>Queretaro</State><ZipCode>76270</ZipCode><Country Code=""MX"">Mexico</Country><Description>Default Billing Address</Description><ContactName>Marian Magos Badillo</ContactName><ContactPhone>+52 442-561-9808</ContactPhone><ContactFax>+52 442-561-9808</ContactFax><ContactEmail>marian.magos@techops.mx</ContactEmail></BillingAddress><DueDate>2024-08-30-05:00</DueDate><Status>Open</Status><IsPrepaid>false</IsPrepaid><IsPeriodic>false</IsPeriodic><IsPrinted>false</IsPrinted><IsFiscalPrinted>false</IsFiscalPrinted><HasAttachments>false</HasAttachments><PaymentTerms>Net 60</PaymentTerms><PaymentTermsRef><Description>Net 60</Description><NetDueDays>60</NetDueDays><DiscountPercentage>0.00</DiscountPercentage><DiscountPaidDays>0</DiscountPaidDays></PaymentTermsRef><ObjectElementName>GroundShipment</ObjectElementName><RelatedObject><GroundShipment GUID=""05a6f5d4-4a89-4038-b44e-ca5e1448be53"" Type=""SH""><CreatedOn>2024-07-01T11:50:15-04:00</CreatedOn><Number>2024100793MA</Number><CreatedByName>Anais Angulo</CreatedByName><Version>106</Version><ModeOfTransportation Code=""30""><Description>HOT SHOT</Description><Method>Ground</Method></ModeOfTransportation><ModeOfTransportCode>30</ModeOfTransportCode><ShipperName>Wencor Group</ShipperName><Shipper GUID=""0c1b91a0-cecd-4a61-a280-bd822a737256""><Type>Client</Type><Name>Wencor Group</Name><CreatedOn>2022-09-13T16:03:17-04:00</CreatedOn><Address><Street>416 Dividend Dr</Street><City>Peachtree City</City><State>GA</State><ZipCode>30269</ZipCode><Country Code=""US"">United States</Country><Description>Default Shipping Address</Description></Address><BillingAddress><Street>416 Dividend Dr</Street><City>Peachtree City</City><State>GA</State><ZipCode>30269</ZipCode><Description>Default Billing Address</Description></BillingAddress><AccountNumber>EPA1012380</AccountNumber><TransactionDueDays>30</TransactionDueDays><PaymentTerms><Description>Net 30</Description><NetDueDays>30</NetDueDays><DiscountPercentage>0.00</DiscountPercentage><DiscountPaidDays>0</DiscountPaidDays></PaymentTerms><IsKnownShipper>true</IsKnownShipper><KnownShipperExpirationDate>2024-02-22T16:04:15-05:00</KnownShipperExpirationDate><IsPrepaid>false</IsPrepaid><CustomFields><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>guidd</InternalName><DisplayName>GUIDD</DisplayName><InternalUse>true</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>true</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>0c1b91a0-cecd-4a61-a280-bd822a737256</Value></CustomField></CustomFields></Shipper><ShipperAddress><Street>416 Dividend Dr</Street><City>Peachtree City</City><State>GA</State><ZipCode>30269</ZipCode><Country Code=""US"">United States</Country><Description>Default Shipping Address</Description></ShipperAddress><ConsigneeName>MEXICO MRO MANAGEMENT, S DE R.L. DE� C.V.</ConsigneeName><Consignee GUID=""c1eca53b-db3a-4a2a-9ead-e5e950b9893c""><Type>Client</Type><Name>MEXICO MRO MANAGEMENT, S DE R.L. DE� C.V.</Name><CreatedOn>2022-09-27T09:58:38-04:00</CreatedOn><Address><Street>Carretera Estatal 200 QueretaroTequisquiapan Numero 22500 A, C.P. 76270</Street><Street>RFC: MMM170428EC4 POC: Marian Magos Badillo</Street><Street>E: marian.magos@techops.mx</Street><City>Colon</City><State>Queretaro</State><ZipCode>76270</ZipCode><Country Code=""MX"">Mexico</Country><Description>Default Shipping Address</Description><ContactName>Marian Magos Badillo</ContactName><ContactPhone>+52 442-561-9808</ContactPhone><ContactFax>+52 442-561-9808</ContactFax><ContactEmail>marian.magos@techops.mx</ContactEmail></Address><BillingAddress><Street>Carretera Estatal 200 Queretaro Tequisquiapan Numero 22500 A, C.P</Street><Street>RFC: MMM170428EC4 POC: Marian Magos Badillo</Street><Street>E: marian.magos@techops.mx P:+52 442-561-9808</Street><City>Colon</City><State>Queretaro</State><ZipCode>76270</ZipCode><Country Code=""MX"">Mexico</Country><Description>Default Billing Address</Description><ContactName>Marian Magos Badillo</ContactName><ContactPhone>+52 442-561-9808</ContactPhone><ContactFax>+52 442-561-9808</ContactFax><ContactEmail>marian.magos@techops.mx</ContactEmail></BillingAddress><Email>marian.magos@techops.mx</Email><Phone>+52 442-561-9808</Phone><Fax>+52 442-561-9808</Fax><AccountNumber>CUSA01048</AccountNumber><ContactFirstName>Marian</ContactFirstName><ContactLastName>Magos Badillo</ContactLastName><ExporterID>0011v00002QhtyVAAR</ExporterID><ExporterIDType>Other</ExporterIDType><Notes>TECH OPS (Mexico client) - Mexico MRO
+venta 30% de profit - cotizar directo al cliente
+
+
+LAX MEX
+Aerounion
+Mas Air
+American Airlines
+
+ORD MEX
+Aerounion
+American Airlines
+
+PHX MEX
+American Airlines 
+
+MIA MEX
+Estafeta
+Amerijet
+American Airlines
+Aeromexico 
+
+JFK MEX
+american airlines
+aeromexico
+
+Estafeta
+No esta en ebooking - schedule abajo
+Schedule 1,2,3,4,6 (no flights on Fridays or Sundays)
+Cut off 12:00pm same day of the flight
+ETD 18:00
+ETA 23:55 
+Ruta: via MIA/CUN/MID/MEX 
+
+Amerijet  
+No esta en ebooking – chequear schedule 
+Account EURPMI en 7L (usar las tarifasque menciona nuestro account # en 7L en observaciones)
+GCX – priority
+General – standard 
+Schedules online en amerijet cargo --&gt; Shipping Company | Air Freight | Cargo Shipping | Amerijet
+Wednesday only 23:30 – 1:45am
+Ruta: direct MIA MEX 
+
+
+PAX: 
+
+American Airlines 
+confirmedFS – standard
+expeditedFS – priority 
+Schedule esta en ebooking (pero siempre usar la tarifa de 7L tarifario porque hay un peak season surcharge adicional para MEX)
+La tarifa de 7L es la de PROMO 7980 
+Dependiendo de las dimensiones/peso, puede aceptar hasta 158in de largo – si aparece en ebooking, si acepta.. si no aparece, no acepta las dimensiones. 
+
+Aeromexico 
+Daily flight MIA MEX
+Max dim 48*40*30in 150kg per piece
+AM 0423 ETD 1300 ETA 1555
+AM 0413 ETD 1836 ETA 2125
+Cut off express 6 hours before the flight 
+
+ORD MEX: 
+
+Freighter: Aerounion 
+Frequency: Thursday and Sundays
+Cut off 19:00 the day before of the flight
+Thursday ETD 19:35pm ETA 23:35
+Sunday ETD 18:10pm ETA 22:10
+
+PAX: American Airlines 
+
+LAX MEX:
+ 
+Freighter: 
+Mas Air
+Frequency: Monday and Wednesday
+Cut off 16:00
+Moday ETD 03:00 ETA 08:30
+Wedensday ETD 02:00 ETA 09:30
+
+Aerounion
+Frequency daily
+Cut off 1700
+ETD 23:30pm
+ETA 06:40am +1 (next day)
+Route: via GDL 
+
+PAX: American Airlines 
+
+JFK MEX: 
+
+PAX: 
+
+Aeromexico
+Daily flight JFK MEX
+Max dim 48*40*30in 150kg per piece
+Cut off express 6 hours before the flight 
+
+American Airlines
+
+ATL/CLT MEX: PAX: American Airlines, United 
+
+</Notes><Balance Currency=""USD"">388608.87999999994644895196</Balance><TransactionDueDays>60</TransactionDueDays><PaymentTerms><Description>Net 60</Description><NetDueDays>60</NetDueDays><DiscountPercentage>0.00</DiscountPercentage><DiscountPaidDays>0</DiscountPaidDays></PaymentTerms><OtherAddresses><Address><Street>Carretera Estatal 200 Queretaro Tequisquiapan Numero 22500 A, C.P</Street><Street>RFC: MMM170428EC4</Street><Description>SHORT</Description></Address></OtherAddresses><RelatedEntities><RelatedEntity><EntityGUID>d21ac064-a7b6-40e0-834b-5fce5a35a6b9</EntityGUID><EntityName>Hugo Polanco</EntityName><Type>SalesPerson</Type></RelatedEntity></RelatedEntities><IsPrepaid>false</IsPrepaid><MobilePhone>+52 442-561-9808</MobilePhone><CustomFields><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>factoraje</InternalName><DisplayName>Factoraje</DisplayName><InternalUse>true</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>false</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>FA</Value></CustomField><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>guidd</InternalName><DisplayName>GUIDD</DisplayName><InternalUse>true</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>true</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>c1eca53b-db3a-4a2a-9ead-e5e950b9893c</Value></CustomField></CustomFields></Consignee><ConsigneeAddress><Street>Carretera Estatal 200 QueretaroTequisquiapan Numero 22500 A, C.P. 76270</Street><Street>RFC: MMM170428EC4 POC: Marian Magos Badillo</Street><Street>E: marian.magos@techops.mx</Street><City>Colon</City><State>Queretaro</State><ZipCode>76270</ZipCode><Country Code=""MX"">Mexico</Country><Description>Default Shipping Address</Description><ContactName>Marian Magos Badillo</ContactName><ContactPhone>+52 442-561-9808</ContactPhone><ContactFax>+52 442-561-9808</ContactFax><ContactEmail>marian.magos@techops.mx</ContactEmail></ConsigneeAddress><Items><Item GUID=""ceba91ca-bed6-47ad-88c9-5a7860fc6cb4"" Type=""WI""><Version>105</Version><Status>Delivered</Status><Pieces>1</Pieces><Description>LIGHT COVER ASSY</Description><PieceQuantity>0.00</PieceQuantity><IsSummarized>false</IsSummarized><PickupOrderGUID>f81b76ee-829a-40d5-acf4-171a9f76fe1a</PickupOrderGUID><WHRItemID>1</WHRItemID><Length Unit=""in"">133.00</Length><Height Unit=""in"">6.00</Height><Width Unit=""in"">6.00</Width><Weight Unit=""lb"">10.00</Weight><ContainedPiecesWeightIncluded>true</ContainedPiecesWeightIncluded><Volume Unit=""ft3"">2.77083333333333436954</Volume><VolumeWeight Unit=""vlb"">28.84337349397589989053</VolumeWeight><PieceWeight Unit=""lb"">10.00</PieceWeight><PieceVolume Unit=""ft3"">2.77083333333333436954</PieceVolume><OutShipmentGUID>05a6f5d4-4a89-4038-b44e-ca5e1448be53</OutShipmentGUID><IncludeInSED>false</IncludeInSED><IsContainer>false</IsContainer><LastReceptionNetworkID>0</LastReceptionNetworkID><ShipmentType>Ground</ShipmentType><OutDate>2024-07-01T11:50:15-04:00</OutDate><PickupOrderNumber>PU11069MA</PickupOrderNumber><OrderIndex>1</OrderIndex><IsPallet>false</IsPallet><IsOverstock>false</IsOverstock><NotLoaded>false</NotLoaded><InTask>false</InTask><EntryDate>2024-06-28T18:01:42-04:00</EntryDate></Item></Items><MeasurementUnits><LengthUnit>in</LengthUnit><VolumeUnit>ft3</VolumeUnit><WeightUnit>lb</WeightUnit><VolumeWeightUnit>vlb</VolumeWeightUnit><AreaUnit>ft2</AreaUnit><LengthPrecision>2</LengthPrecision><VolumePrecision>2</VolumePrecision><WeightPrecision>2</WeightPrecision><VolumeWeightPrecision>2</VolumeWeightPrecision><AreaPrecision>2</AreaPrecision><VolumeWeightFactor>166.00</VolumeWeightFactor></MeasurementUnits><CreatorNetworkID>37357</CreatorNetworkID><Events><Event><Date>2024-07-01T11:51:21-04:00</Date><EventDefinition><Name>Shipment has been liquidated</Name><IncludeInTracking>true</IncludeInTracking></EventDefinition><IncludeInTracking>true</IncludeInTracking><OwnerType>SH</OwnerType><OwnerGUID>05a6f5d4-4a89-4038-b44e-ca5e1448be53</OwnerGUID></Event><Event><Date>2024-07-08T13:45:53-04:00</Date><EventDefinition><Name>In Transit</Name><IncludeInTracking>true</IncludeInTracking></EventDefinition><IncludeInTracking>true</IncludeInTracking><OwnerType>SH</OwnerType><OwnerGUID>05a6f5d4-4a89-4038-b44e-ca5e1448be53</OwnerGUID></Event><Event><Date>2024-07-08T13:45:55-04:00</Date><EventDefinition><Name>Delivered to consignee</Name><IncludeInTracking>true</IncludeInTracking></EventDefinition><IncludeInTracking>true</IncludeInTracking><OwnerType>SH</OwnerType><OwnerGUID>05a6f5d4-4a89-4038-b44e-ca5e1448be53</OwnerGUID></Event></Events><TotalPieces>1</TotalPieces><TotalWeight Unit=""lb"">10.00</TotalWeight><TotalVolume Unit=""ft3"">2.77083333333333436954</TotalVolume><TotalVolumeWeight Unit=""vlb"">28.84337349397589989053</TotalVolumeWeight><ChargeableWeight Unit=""lb"">28.84337349397589989053</ChargeableWeight><TotalValue Currency=""USD"">0.00</TotalValue><Status>Delivered</Status><LayoutType>Straight</LayoutType><Direction>Outgoing</Direction><EstimatedArrivalDate>2024-07-01T11:50:15-04:00</EstimatedArrivalDate><EstimatedDepartureDate>2024-07-01T11:50:15-04:00</EstimatedDepartureDate><BillingClient GUID=""0c1b91a0-cecd-4a61-a280-bd822a737256""><Type>Client</Type><Name>Wencor Group</Name><CreatedOn>2022-09-13T16:03:17-04:00</CreatedOn><Address><Street>416 Dividend Dr</Street><City>Peachtree City</City><State>GA</State><ZipCode>30269</ZipCode><Country Code=""US"">United States</Country><Description>Default Shipping Address</Description></Address><BillingAddress><Street>416 Dividend Dr</Street><City>Peachtree City</City><State>GA</State><ZipCode>30269</ZipCode><Description>Default Billing Address</Description></BillingAddress><AccountNumber>EPA1012380</AccountNumber><TransactionDueDays>30</TransactionDueDays><PaymentTerms><Description>Net 30</Description><NetDueDays>30</NetDueDays><DiscountPercentage>0.00</DiscountPercentage><DiscountPaidDays>0</DiscountPaidDays></PaymentTerms><IsKnownShipper>true</IsKnownShipper><KnownShipperExpirationDate>2024-02-22T16:04:15-05:00</KnownShipperExpirationDate><IsPrepaid>false</IsPrepaid><CustomFields><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>guidd</InternalName><DisplayName>GUIDD</DisplayName><InternalUse>true</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>true</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>0c1b91a0-cecd-4a61-a280-bd822a737256</Value></CustomField></CustomFields></BillingClient><ExecutedPlace>Houston</ExecutedPlace><CustomerReferenceNumber>Q20248392MA</CustomerReferenceNumber><LastDateOfDeparture>2024-07-01T11:50:15-04:00</LastDateOfDeparture><SpottingDate>2024-07-01T11:50:15-04:00</SpottingDate><PickupDate>2024-07-01T11:50:15-04:00</PickupDate><CutoffDate>2024-07-01T11:50:15-04:00</CutoffDate><MasterNumber>2024100793MA</MasterNumber><HasAttachments>false</HasAttachments><ShipmentOptions><IsShipperConsigneeRelated>false</IsShipperConsigneeRelated><IsRoutedTransaction>true</IsRoutedTransaction><IsAirWayBillDetailExpanded>false</IsAirWayBillDetailExpanded><IsBillOfLadingDetailExpanded>false</IsBillOfLadingDetailExpanded><IsCargoManifestDetailExpanded>true</IsCargoManifestDetailExpanded><FillDocsWithAccountingInfo>true</FillDocsWithAccountingInfo><AirWayBillWeightUnit>Both</AirWayBillWeightUnit><BillOfLadingWeightUnit>Both</BillOfLadingWeightUnit><ShowContainerDetails>false</ShowContainerDetails><ShowWHRsInCargoManifest>false</ShowWHRsInCargoManifest><ShowDimensionsInAWB>true</ShowDimensionsInAWB><ShowDimensionsDetailedInAWB>false</ShowDimensionsDetailedInAWB><UseNotesAsMarksNumbersInBL>false</UseNotesAsMarksNumbersInBL><BillOfLadingGroupSimilarItems>false</BillOfLadingGroupSimilarItems></ShipmentOptions><IsLessThanFullLoad>true</IsLessThanFullLoad><Service>PortToPort</Service><IsOnline>false</IsOnline><IsLiquidated>true</IsLiquidated><DeliverToEntityName>MEXICO MRO MANAGEMENT, S DE R.L. DE� C.V.</DeliverToEntityName><DeliverToEntityAddress><Street>Carretera Estatal 200 QueretaroTequisquiapan Numero 22500 A, C.P. 76270</Street><Street>RFC: MMM170428EC4 POC: Marian Magos Badillo</Street><Street>E: marian.magos@techops.mx</Street><City>Colon</City><State>Queretaro</State><ZipCode>76270</ZipCode><Country Code=""MX"">Mexico</Country><Description>Default Shipping Address</Description><ContactName>Marian Magos Badillo</ContactName><ContactPhone>+52 442-561-9808</ContactPhone><ContactFax>+52 442-561-9808</ContactFax><ContactEmail>marian.magos@techops.mx</ContactEmail></DeliverToEntityAddress><CustomFields><CustomField><CustomFieldDefinition><Type>PickList</Type><InternalName>magaya_cargoai_status</InternalName><DisplayName>CargoAI Status</DisplayName><Description>CargoAI Status</Description><Category>CargoAI </Category><InternalUse>false</InternalUse><BuildReports>false</BuildReports><Inactive>false</Inactive><IsCalculated>false</IsCalculated><IsReadOnly>false</IsReadOnly><DefaultValue><Value>Booking Requested</Value></DefaultValue><PickItems><PickItem>Booking Requested</PickItem><PickItem>Booking Rejected</PickItem><PickItem>Booking Confirmed</PickItem><PickItem>In Transit</PickItem><PickItem>Delivered</PickItem><PickItem>Cancellation Requested</PickItem><PickItem>Booking Cancelled</PickItem><PickItem>Invalid</PickItem></PickItems></CustomFieldDefinition><Value>Booking Requested</Value></CustomField><CustomField><CustomFieldDefinition><Type>Logical</Type><InternalName>magaya_cargoai_tracked</InternalName><DisplayName>Tracked in CargoAI</DisplayName><Description>Tracked in CargoAI</Description><Category>CargoAI </Category><InternalUse>false</InternalUse><BuildReports>false</BuildReports><Inactive>false</Inactive><IsCalculated>false</IsCalculated><IsReadOnly>false</IsReadOnly><DefaultValue><Value>false</Value></DefaultValue></CustomFieldDefinition><Value>false</Value></CustomField></CustomFields></GroundShipment></RelatedObject><CustomFields><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>sapidinvoice</InternalName><DisplayName>SAPidInvoice</DisplayName><InternalUse>false</InternalUse><BuildReports>false</BuildReports><Inactive>false</Inactive><IsCalculated>false</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>60003307</Value></CustomField><CustomField><CustomFieldDefinition><Type>Date</Type><InternalName>sap_received_date</InternalName><DisplayName>SAP Received date</DisplayName><InternalUse>false</InternalUse><BuildReports>false</BuildReports><Inactive>false</Inactive><IsCalculated>false</IsCalculated><IsReadOnly>false</IsReadOnly><DateTimeFormat>true</DateTimeFormat><DateSystemTime>false</DateSystemTime></CustomFieldDefinition><Value>2024-10-18T08:56:43-04:00</Value></CustomField><CustomField><CustomFieldDefinition><Type>Date</Type><InternalName>invoice_sent_date</InternalName><DisplayName>Email Sent Date</DisplayName><InternalUse>false</InternalUse><BuildReports>false</BuildReports><Inactive>false</Inactive><IsCalculated>false</IsCalculated><IsReadOnly>false</IsReadOnly><DateTimeFormat>false</DateTimeFormat><DateSystemTime>false</DateSystemTime></CustomFieldDefinition><Value>2024-07-02-05:00</Value></CustomField><CustomField><CustomFieldDefinition><Type>PickList</Type><InternalName>sap01</InternalName><DisplayName>SAP</DisplayName><InternalUse>false</InternalUse><BuildReports>false</BuildReports><Inactive>false</Inactive><IsCalculated>false</IsCalculated><IsReadOnly>false</IsReadOnly><PickItems><PickItem>Sync with SAP</PickItem><PickItem>Disputed</PickItem><PickItem>Not Sync with SAP</PickItem></PickItems></CustomFieldDefinition><Value>Sync with SAP</Value></CustomField><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>first_invoice</InternalName><DisplayName>First invoice</DisplayName><Description>This field defines if the invoice is the first created on their group</Description><InternalUse>true</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>false</IsCalculated><IsReadOnly>true</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>Yes</Value></CustomField><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>dias_de_creacin_order</InternalName><DisplayName>Dias de creación Order</DisplayName><InternalUse>false</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>true</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>110</Value></CustomField><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>incidencia_por_exceder_3_das_en_facturacin</InternalName><DisplayName>Incidencia por exceder 3 días en facturación</DisplayName><InternalUse>false</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>true</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>Yes</Value></CustomField><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>type02</InternalName><DisplayName>type</DisplayName><InternalUse>false</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>true</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>Invoice</Value></CustomField><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>createdon_spec</InternalName><DisplayName>CreatedOn_Spec</DisplayName><InternalUse>false</InternalUse><BuildReports>false</BuildReports><Inactive>false</Inactive><IsCalculated>true</IsCalculated><IsReadOnly>false</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>Mon Jul 01 2024 11:51:14 GMT-0400 (Eastern Daylight Time)</Value></CustomField><CustomField><CustomFieldDefinition><Type>Text</Type><InternalName>sales_person</InternalName><DisplayName>sales person</DisplayName><InternalUse>true</InternalUse><BuildReports>true</BuildReports><Inactive>false</Inactive><IsCalculated>true</IsCalculated><IsReadOnly>true</IsReadOnly><MaximumLength>100</MaximumLength><IsMultiline>false</IsMultiline></CustomFieldDefinition><Value>Hugo Polanco</Value></CustomField></CustomFields></Invoice>"
